@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Shree Krishna</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <audio id="chantAudio">
+        <source src="tune.mp3" type="audio/mpeg">
+    </audio>
+    
+    <div class="door door-left" id="door-left"></div>
+    <div class="door door-right" id="door-right"></div>
+    
+    <button class="open-button" id="openButton" onclick="openDoors()">Chant !!! <br> Hare Krishna Hare Krishna &nbsp; Krishna Krishna Hare Hare <br> 
+        Hare Rama Hare Rama  &nbsp; Rama Rama Hare Hare
+        <br>Click on this button</button>
+
+    <div id="text-bg" class="hidden">
+        <div>
+            <img class="animationTopBottom1" src="run3.png" style="width: 300px; height: 300px;padding-bottom:10px">
+        </div>
+        <div class="text">
+            <h1>Happy Janmashtami<img class="animationTopBottom" src="https://i2.wp.com/blog.stackfindover.com/wp-content/uploads/2020/08/krishna.png" alt="krishna"></h1>
+            <h3>“On this Janmashtami, may Lord Krishna bless you with peace, love, and happiness. <br>Jai Shri Krishna!”</h3>
+        </div>
+    </div>
+    
+    <div id="video-bg" class="hidden">
+        <video id="celebrationVideo" width="500" style="border-radius: 20px;  box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(253, 252, 252, 0.19);
+" controls>
+            <source src="vedio.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div id="rain-container"></div>
+    <div id="flower-container"></div>
+    <div id="corner-text">
+        By Friend of Lord Krishna
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
